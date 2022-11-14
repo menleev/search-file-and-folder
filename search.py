@@ -21,7 +21,6 @@ class bcolors:
 
 def menu():
     os.system('cls')
-    #выбирите что хотите искать папку или файл через case
     print(f' 1 - Поиск {bcolors.WARNING}папки{bcolors.ENDC}')
     print(f' 2 - Поиск {bcolors.WARNING}файла{bcolors.ENDC}\n')
     choice = input('Выберите действие: ')
